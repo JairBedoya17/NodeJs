@@ -9,57 +9,31 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <style>
-  body {
-      background-color: white;
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-nav.navbar {
-    background-color: #CC1414;
-}
+  .fakeimg {
+    height: 100px;
+    background: #aaa;
+  }
   </style>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="/">Inicio</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <a class="navbar-brand" href="/">Repositorio</a>
+
  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mt-2 mt-lg-0">
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href=""
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Reportes
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="view1" rel="noopener noreferrer"
-              >Reporte de Ingreso de usuario</a
-            >
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="view2" rel="noopener noreferrer"
-              >Reporte de Canciones más escuchadas</a
-            >
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="view3" rel="noopener noreferrer"
-              >Reporte de Cantidad de tarjetas registradas</a
-            >
-          </div>
-        </li>
-
-  </div>  
+  <div class="dropdown">
+  <button type="link" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+    Reportes
+  </button>
+<div class="dropdown-menu">
+  <a class="dropdown-item" href="view1">Reporte de Canciones más escuchadas</a>
+  <a class="dropdown-item" href="view2">Reporte de ingreso de usuarios</a>
+  <a class="dropdown-item" href="view3">Reporte de roles de usuarios</a>
+</div>
+	
+</div>
 </nav>
-
 
 </body>
 </html>
-
